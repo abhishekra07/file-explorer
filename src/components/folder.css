@@ -10,11 +10,18 @@
   align-items: center;
   justify-content: space-between;
   width: 400px;
-  background-color: rgba(240, 237, 237, 0.7);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   padding: 5px 10px;
   border-radius: 5px;
   margin-top: 5px;
   cursor: pointer;
+  min-height: 50px;
+}
+
+.folder:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .folder-header {
@@ -35,9 +42,13 @@
 .edit-container button {
   border: none;
   outline: none;
-  background-color: rgb(118, 250, 173);
+  background-color: rgba(161, 235, 255, 0.938);
   padding: 5px 10px;
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.edit-container button:hover {
+  background-color: rgba(35, 205, 252);
 }
