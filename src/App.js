@@ -1,9 +1,11 @@
 import Folder from "./components/Folder";
 import explorerData from "./data/explorer";
 
+import "./App.css";
+
 function App() {
   return (
-    <div>
+    <div className="container">
       <Folder explorer={explorerData} />
     </div>
   );

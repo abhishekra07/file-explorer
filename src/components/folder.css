@@ -1,0 +1,43 @@
+.folder-container {
+  color: black;
+  min-height: 30px;
+}
+
+.folder {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  background-color: rgba(240, 237, 237, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.folder-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.subfolder-container {
+  margin-left: 30px;
+}
+
+.edit-container {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-container button {
+  border: none;
+  outline: none;
+  background-color: rgb(118, 250, 173);
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
