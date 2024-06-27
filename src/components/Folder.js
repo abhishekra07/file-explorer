@@ -11,7 +11,7 @@ function Folder({ explorer }) {
         </div>
         {showSubFolder && (
           <div className="subfolder-container">
-            {explorer.items((exp) => {
+            {explorer.items.map((exp) => {
               return <Folder explorer={exp} />;
             })}
           </div>
@@ -19,9 +19,11 @@ function Folder({ explorer }) {
       </div>
     );
   } else {
-    <div>
-      <span>📄 {explorer.name}</span>
-    </div>;
+    return (
+      <div>
+        <span>📄 {explorer.name}</span>
+      </div>
+    );
   }
 }
 

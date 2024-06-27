@@ -1,26 +1,26 @@
 const data = {
   id: Date.now(),
-  title: "root",
+  name: "root",
   isFolder: true,
   items: [
     {
       id: Date.now(),
-      title: "public",
+      name: "public",
       isFolder: true,
       items: [
         {
           id: Date.now(),
-          title: "usr",
+          name: "usr",
           isFolder: true,
           items: [
             {
               id: Date.now(),
-              title: "profile.txt",
+              name: "profile.txt",
               isFolder: false,
             },
             {
               id: Date.now(),
-              title: "permission.txt",
+              name: "permission.txt",
               isFolder: false,
             },
           ],
@@ -29,13 +29,13 @@ const data = {
     },
     {
       id: Date.now(),
-      title: "src",
+      name: "src",
       isFolder: true,
       items: [],
     },
     {
       id: Date.now(),
-      title: "logs.txt",
+      name: "logs.txt",
       isFolder: false,
     },
   ],
