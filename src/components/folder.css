@@ -52,3 +52,16 @@
 .edit-container button:hover {
   background-color: rgba(35, 205, 252);
 }
+
+.input-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input-container input {
+  width: 300px;
+  padding: 5px 10px;
+  outline: none;
+}

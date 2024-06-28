@@ -1,25 +1,25 @@
 const data = {
-  id: Date.now(),
+  id: 1,
   name: "root",
   isFolder: true,
   items: [
     {
-      id: Date.now(),
+      id: 2,
       name: "public",
       isFolder: true,
       items: [
         {
-          id: Date.now(),
+          id: 3,
           name: "usr",
           isFolder: true,
           items: [
             {
-              id: Date.now(),
+              id: 4,
               name: "profile.txt",
               isFolder: false,
             },
             {
-              id: Date.now(),
+              id: 5,
               name: "permission.txt",
               isFolder: false,
             },
@@ -28,13 +28,13 @@ const data = {
       ],
     },
     {
-      id: Date.now(),
+      id: 6,
       name: "src",
       isFolder: true,
       items: [],
     },
     {
-      id: Date.now(),
+      id: 7,
       name: "logs.txt",
       isFolder: false,
     },
